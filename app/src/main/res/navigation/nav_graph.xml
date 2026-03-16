@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/groupsFragment">
+
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.fairsplit.app.ui.groups.GroupsFragment"
+        android:label="@string/groups"
+        tools:layout="@layout/fragment_groups">
+        <action
+            android:id="@+id/action_groups_to_groupDetail"
+            app:destination="@id/groupDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/groupDetailFragment"
+        android:name="com.fairsplit.app.ui.groupdetail.GroupDetailFragment"
+        android:label="Group"
+        tools:layout="@layout/fragment_group_detail">
+        <argument
+            android:name="groupId"
+            app:argType="long" />
+        <argument
+            android:name="groupName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_groupDetail_to_addExpense"
+            app:destination="@id/addExpenseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.fairsplit.app.ui.addexpense.AddExpenseFragment"
+        android:label="@string/add_expense"
+        tools:layout="@layout/fragment_add_expense">
+        <argument
+            android:name="groupId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.fairsplit.app.ui.users.UsersFragment"
+        android:label="@string/friends"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/balancesFragment"
+        android:name="com.fairsplit.app.ui.balances.BalancesFragment"
+        android:label="@string/balances"
+        tools:layout="@layout/fragment_balances" />
+
+</navigation>

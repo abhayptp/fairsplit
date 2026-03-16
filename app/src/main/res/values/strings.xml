@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FairSplit</string>
+    <string name="groups">Groups</string>
+    <string name="friends">Friends</string>
+    <string name="balances">Balances</string>
+    <string name="add_group">Add Group</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="group_name">Group Name</string>
+    <string name="friend_name">Friend Name</string>
+    <string name="expense_description">Description</string>
+    <string name="expense_amount">Amount</string>
+    <string name="paid_by">Paid by</string>
+    <string name="split_equally">Split Equally</string>
+    <string name="split_custom">Custom Split</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="settle_up">Settle Up</string>
+    <string name="no_groups">No groups yet. Tap + to create one.</string>
+    <string name="no_friends">No friends yet. Tap + to add one.</string>
+    <string name="no_expenses">No expenses yet. Tap + to add one.</string>
+    <string name="no_balances">All settled up!</string>
+    <string name="owes">owes</string>
+    <string name="select_members">Select Members</string>
+    <string name="members">Members</string>
+    <string name="group_balances">Balances</string>
+    <string name="overall_balances">Overall Balances</string>
+    <string name="confirm_delete_group">Delete this group?</string>
+    <string name="confirm_delete_expense">Delete this expense?</string>
+    <string name="confirm_settle">Mark as settled?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
